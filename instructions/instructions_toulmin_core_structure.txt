@@ -1,0 +1,6 @@
+The explanation should contain:
+- Claim: The clinical assertion or conclusion put forward for general acceptance of the action
+- Data: Key patient-specific facts (as items) supporting the claim
+- Warrant: The pathophysiological or clinical reasoning linking data to the claim
+
+Provide the output without any additional commentary or explanations and use full terms instead of abbreviations.

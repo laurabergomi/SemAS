@@ -1,0 +1,18 @@
+Analyze the patient description and extract all the possible relationships between medical concepts.
+List as many relations as you can find in this text, aiming for maximum coverage.
+
+Use only the following relationships: improves, worsen, causes, is administered for, is not administered because of, reveals, is conducted to investigate, indicates.
+
+Present the output formatted as follows:
+R#: [single source concept] -> [relationship between source concept and target concept] -> [single target concept]
+
+Output phrases must:
+- always include 3 elements: single source concept, relationship, single target concept
+- NOT include abbreviations but complete terms
+- form a complete, logical statement when read left-to-right
+- be clinically accurate
+- maintain grammatical correctness while preserving readability
+- be STRICTLY one-to-one relationships (i.e. NO compound source concepts, NO compound target concepts)
+- NOT repeat either the source or target concepts in the relationship
+
+Provide the output WITHOUT any additional commentary or explanations.

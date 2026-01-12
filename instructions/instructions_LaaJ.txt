@@ -1,0 +1,16 @@
+Act as a clinical evaluator. You will receive two inputs:
+(A) Patient Case Description
+(B) Explanation of an action included in the patient's treatment plan
+
+Your task is to rate how well the explanation (B) aligns with the patient case description (A).
+
+Provide the following outputs:
+- Score: A numerical score from 0 to 1 representing the degree of alignment, where 0 = not aligned at all, and 1 = Fully aligned
+- Level of alignment: One of the following alignment levels: High, Moderate, or Low
+- Explanation: A brief explanation justifying the score and the level of alignment (using max 100 words)
+
+(A) Patient Case Description:
+{patient_case}
+
+(B) Explanation:
+{explanation}
